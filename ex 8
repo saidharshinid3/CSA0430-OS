@@ -1,0 +1,15 @@
+#include <stdio.h>
+
+int main() {
+    int bt[] = {5, 4, 6};
+    int tq = 2;
+    int t = 0;
+
+    printf("Round Robin Scheduling\n");
+
+    for (int i = 0; i < 3; i++) {
+        t += bt[i];
+        printf("Process P%d completed at time %d\n", i+1, t);
+    }
+    return 0;
+}
