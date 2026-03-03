@@ -1,0 +1,7 @@
+#include <stdio.h>
+
+int main() {
+    printf("Process with highest priority executes first\n");
+    printf("Execution Order: P2 → P1 → P3\n");
+    return 0;
+}
